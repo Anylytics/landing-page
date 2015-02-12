@@ -1,2 +1,3 @@
-# Template
-Anylytics Template Repository
+# Anylytics Home page
+
+Developing marketing page for Anylytics
