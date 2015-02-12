@@ -1,2 +1,2 @@
-# landing-page
-Marketing page for Anylytics
+# Template
+Anylytics Template Repository
