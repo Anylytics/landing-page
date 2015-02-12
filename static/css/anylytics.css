@@ -130,8 +130,20 @@ a.home-icon-a {
 }
 
 #firstStep {
-	background-color:#54A148;
-	padding:100px;
+	//background-color:#54A148;
+	background: url(/static/img/bigDataMess.png);
+	background-repeat: repeat-x;
+	background-position: center;
+	//padding:100px;
+	height:340px;
+}
+
+.firstStepText {
+	font-size:2em;
+	line-height:1.5em;
+	text-align:center;
+	padding:10px;
+	margin-top:40px;
 }
 
 .bodyText {
@@ -142,16 +154,30 @@ a.home-icon-a {
 .title {
 	font-size:2em;
 	color:white;
+	padding-top:20px;
 }
 
 .black {
 	color:#565656;
 }
 
+.white {
+	color:white;
+}
+
 .skillsTitle {
 	font-size:1.5em;
 	//font-weight:bold;
 	line-height:1.5em;
+}
+
+.projectSubTitle {
+	text-align:left;
+}
+
+.techUsed {
+	font-size:1.2em;
+	font-weight:bold;
 }
 
 #projectListing {
@@ -167,14 +193,19 @@ a.home-icon-a {
 }
 
 .techIcon {
-	height:50px;
-	width:50px;
+	max-height:50px;
+	//width:50px;
 	padding:9px;
 }
 
-.techIconRow {
+.techIconRowFour {
 	margin-left:50px;
 	margin-right:50px;
+}
+
+.techIconRowFive {
+	margin-left:10px;
+	margin-right:10px;
 }
 
 .inlineIcons {
@@ -187,7 +218,7 @@ a.home-icon-a {
 }
 
 #openDataMap {
-	width:50%;
+	width:100%;
 	//margin-bottom:80px;
 	text-align:center;
 	line-height:0px;
@@ -211,3 +242,16 @@ a.home-icon-a {
 #contactUs:hover {
 	background-color: DarkSalmon;
 	}
+
+.getInTouch {
+	line-height:2em;
+}
+
+#footer {
+	background: url(/static/img/bigDataMess.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top:100px;
+	height:340px;
+	width:100%;
+}
