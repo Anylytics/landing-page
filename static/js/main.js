@@ -7,9 +7,10 @@ require.config({
         mapbox: 'lib/mapbox',
         jquery: 'lib/jquery-1.11',
         jqueryui: 'lib/jquery_ui',
-        bootstrap: 'lib/bootstrap.min'
+        bootstrap: 'lib/bootstrap.min',
+        parallaxlib: 'lib/parallax.min'
     }
 });
 
 
-require(["template", "bootstrap_initialize"]);
+require(["template", "bootstrap_initialize", "parallax"]);

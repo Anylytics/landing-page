@@ -12,89 +12,99 @@
     <link rel="icon" type="image/x-icon" href="./static/img/favicon.png">
 
 </head>
-<body class="animated fadeIn">
-    <div id='header'>
+<body>
+    <div id='header' class="animated fadeIn">
         <div class="logo">
             <a href="http://anylytics.io/">
                 <img src='./static/img/anylytics_logo.png'/>
             </a>
             <a href="#" class="home-icon-a header-icon" data-toggle="tooltip" data-placement="bottom" title="Home">Home</a>
             <a href="http://anylytics.io/blog" id="projects-icon" class="header-icon" data-toggle="tooltip" data-placement="bottom" title="Blog"><img alt="Twitter" src="./static/img/blog.png"></a>
-            <a href="#projects" id="projects-icon" class="header-icon" data-toggle="tooltip" data-placement="bottom" title="Projects"><img alt="Twitter" src="./static/img/projects.png"></a>
+            <a href="#projectListing" id="projects-icon" class="header-icon" data-toggle="tooltip" data-placement="bottom" title="Projects"><img alt="Twitter" src="./static/img/projects.png"></a>
             <a href="https://github.com/Anylytics" id="github-icon" class="header-icon" data-toggle="tooltip" data-placement="bottom" title="Github"><img alt="Twitter" src="./static/img/github.png"></a>
             <a href="http://twitter.com/any_lytics" class="header-icon" data-toggle="tooltip" data-placement="bottom" title="Twitter"><img alt="Twitter" id="twitter-icon" src="http://anylytics.io/blog/wp-content/themes/crates/images/icon-twitter.png"></a>
         </div>
     </div>
 
-    <!--<div id='ractiveDiv'></div>-->
-
-    <div  id="anyDescr">
-        <img id='inlineImg' src="./static/img/anyLove.png"/> 
-    </div> 
-
-    <!--<div id="openDataMap">
-        <img src="./static/img/map_mockup.png"/>
-    </div>-->
-
-
-            <div class=" sourceSansBold black firstStepText">
-                But simply open sourcing your data... is only the first step!
-            </div>
-    <div id="firstStep">
-        <div class="bodyText">
+     <div class="dataContainer animated fadeIn">
+        <div class="animated flipInX freeYourData sourceSansBold">
+            Free your data
+            <!--<ul class='actions'>
+                <li><a href="#elements" class="button big alt" style='color:black;'>Contact</a></li>
+                <li>Blog</li>
+                <li>Projects</li>
+            </ul>-->
         </div>
     </div>
 
+    <div class="animated fadeIn bodyContent">
 
-        <div class="sourceSansBold black firstStepText">
-            <div class="row">
-                At Anylytics, we free your data for intuitive & meaningful consumption
-            </div>
+        <div  id="anyDescr" >
+            <img id='inlineImg' src="./static/img/anyLove.png"/> 
+        </div> 
+
+        <div class="firstStepText green">
+            But simply open sourcing your data... is only the first step!
         </div>
+        <div class="firstStepText darkGreen">
+            At Anylytics, we free your data for intuitive & meaningful consumption
+        </div>
+
 
         <div id="whatWeDo" class="container bodyText">
         <div class="row">
-            <div class="col-md-12 title sourceSansBold black">So... what do you do exactly?</div>
+            <div class="col-md-12 title sourceSansBold black">So... what do we do exactly?</div>
             <div class="col-md-3 col-sm-6">
-                <img src="./static/img/analyze.png"/>
-                <div class="skillsTitle">Analyze</div>
-                <div class="skillsSubTitle">We take an in-depth look at your data</div>
+                <div class="skillContainer">
+                    <img src="./static/img/analyze.png"/>
+                    <div class="skillsTitle sourceSansBold">ANALYZE</div>
+                    <div class="doSubTitle">We take an in-depth look at your data</div>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="./static/img/simplify.png"/>
-                <div class="skillsTitle">Simplify</div>
-                <div class="skillsSubTitle">We remove redundancies and reduce complexity</div>
+                <div class="skillContainer">
+                    <img src="./static/img/simplify.png"/>
+                    <div class="skillsTitle sourceSansBold">SIMPLIFY</div>
+                    <div class="doSubTitle">We remove redundancies and reduce complexity</div>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="./static/img/organize.png"/>
-                <div class="skillsTitle">Organize</div>
-                <div class="skillsSubTitle">Once we have extracted the essential data, we reorganize in a way that makes analysis and understanding simple.wa</div>
+                <div class="skillContainer">
+                    <img src="./static/img/organize.png"/>
+                    <div class="skillsTitle sourceSansBold">ORGANIZE</div>
+                    <div class="doSubTitle">We'll make sure your data is easy to access for interactive web applications</div>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="./static/img/visualize.png"/>
-                <div class="skillsTitle">Visualize</div>
-                <div class="skillsSubTitle">Once we </div>
+                <div class="skillContainer">
+                    <img src="./static/img/visualize.png"/>
+                    <div class="skillsTitle sourceSansBold">VISUALIZE</div>
+                    <div class="doSubTitle">And then we'll make the magic happen</div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="meaningOfLife">
+    <div id="meaningOfLife" class="white green">
         <div class="container sourceSansBold black firstStepText">
-            <div class="row">
-                What does this mean?
+            <div class="row white">
+                What does this mean for you?
             </div>
         </div>
 
         <div id="meaningOfLife" class="container bodyText">
             <div class="row">
                 <div class="col-md-4">
-                    Increased visibility & transparency
+                    <img title='Increased visibility & transparency' src="./static/img/eye.png"/>
+                    <div class="doSubTitle white">Improved transparency & visibility into your operations</div>
                 </div>
                 <div class="col-md-4">
-                    Enablement of intuitive, data driven decision making
+                    <img title='Enablement of intuitive, data driven decision making' src="./static/img/mac.png"/>
+                    <div class="doSubTitle white">Streamlined decision making through intuitive understanding of where your organization stands</div>
                 </div>
                 <div class="col-md-4">
-                    Large organizations and large data sets working together in lockstep
+                    <img title='Peace of mind' src="./static/img/mind.png"/>
+                    <div class="doSubTitle white">Peace of mind -- sit back and let us worry about what technology is right for you</div>
                 </div>
             </div>
         </div>
@@ -104,7 +114,26 @@
     <div id="projectListing" class="container bodyText">
         <div class="row">
             <div class="col-md-12 title sourceSansBold black">But don't just take our word for it, take a look at what we've done!</div>
-            <div class="col-md-6">
+            <div class="col-md-6 projectBox">
+                <a href="http://anylytics.io/raleighcrime"><img class="projectIcon" src="./static/img/raleighcrimeIcon.png"/></a>
+                <div class="skillsTitle sourceSansBold">RALEIGH CRIME MAP</div>
+                <div class="projectSubTitle">Users can utilize this map to analyze relative danger levels of neighborhoods within the Raleigh city limits. This application is ideal for people looking to judge the safety of their current or future home/work environments. Users can also see trends in criminal activity for the neighborhood in question by viewing the 12 month historical crime index chart per neighborhood.</div>
+                <div class="techUsed sourceSansBold">TECHNOLOGY USED</div>
+                <div class="row techIconRowFour">
+                    <div class="col-md-3 col-sm-3 col-xs-6" data-toggle="tooltip" data-placement="bottom" title="Mapbox">
+                        <a href="https://www.mapbox.com/"><img  class="techIcon" src="/static/img/mapboxIco.ico"/></a>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" data-toggle="tooltip" data-placement="bottom" title="RactiveJS">
+                        <a href="http://www.ractivejs.org/"><img class="techIcon" src="/static/img/ractiveJS.png"/></a>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" data-toggle="tooltip" data-placement="bottom" title="SQLite">
+                        <a href="http://www.sqlite.org/"><img class="techIcon" src="/static/img/sqlLite.png"/></a>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" data-toggle="tooltip" data-placement="bottom" title="R">  
+                        <a href="http://www.r-project.org/"><img class="techIcon" src="/static/img/Rlogo.jpg"/></a>
+                    </div>
+                </div>
+            </div><div class="col-md-6 projectBox">
                 <a href="http://anylytics.io/serial"><img class="projectIcon" src="./static/img/serialIcon.png"/></a>
                 <div class="skillsTitle sourceSansBold">SERIAL CRIME MAP</div>
                 <div class="projectSubTitle">The Serial crime map is an example of what can be done with data that has both time and geographic components. The data used to drive this application comes from a 15 year old homicide case, covered in the popular podcast <a href="http://serialpodcast.org">Serial</a>. The application very easily allows the user to explore a vast data set of testimonies and interviews on a beautiful map with an interactive timeline of events.</div>
@@ -124,10 +153,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 projectBox">
                 <a href="http://onekforcoachk.com"><img class="projectIcon" src="./static/img/coachkIcon.png"/></a>
                 <div class="skillsTitle sourceSansBold">COACH K 1K TWEET SCRAPER</div>
-                <div class="skillsSubTitle">The Serial crime map is an example of what can be done with data that has both time and geographic components. The data used to drive this application comes from a 15 year old homicide case, covered in the popular podcast <a href="http://serialpodcast.org">Serial</a>. The application very easily allows the user to explore a vast data set of testimonies and interviews on a beautiful map with an interactive timeline of events.</div>
+                <div class="projectSubTitle">This project was built to commemorate Duke Basketball coach Coach Mike Krzyzewski's career. This site collected live Twitter data during the game that gave Coach K his 1000th win.</div>
                 <div class="techUsed sourceSansBold">TECHNOLOGY USED</div>
                 <div class="row techIconRowFive" >
                     <div class="col-md-1"></div>
@@ -149,22 +178,15 @@
                     <div class="col-md-1"></div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div id="blogDiv">
-        <div class="container bodyText title">
-            <div class="row">
-                <h1>Or take a look inside our <a href="http://anylytics.io/blog">brains. </a></h1>
+             <div class="col-md-6 projectBox">
+                <a href="http://anylytics.io/blog"><img class="projectIcon" src="./static/img/visualize.png"/></a>
+                <div class="skillsTitle sourceSansBold">BLOG</div>
+                <div class="projectSubTitle">Come check out our blog! We love to post about anything related to data, from easily digestable infographics to in-depth white papers on analytical algorithms and how you can start analyzing data on your own!</div>
             </div>
         </div>
     </div>
 
-    <div id="footer">
     </div>
-
-    <a id="contactUs" class="sourceSansBold title" href="mailto:hello@anylytics.io?Subject=Inquiry" target="_top">CONTACT</a>
-    <a href="#" id="backToTop" style="display: inline;"></a>
 
      <!-- RequireJS means we use this plugin to load everything else! -->
      <!-- See main.js -->
