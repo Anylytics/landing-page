@@ -1,5 +1,5 @@
 // Now we've configured RequireJS, we can load our dependencies and start
-define([ 'jquery','bootstrap'], function (jquery, bootstrap) {
+define([ 'jquery','bootstrap','track'], function (jquery, bootstrap,track) {
 
 
 
