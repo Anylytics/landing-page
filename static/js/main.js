@@ -9,7 +9,7 @@ require.config({
         jqueryui: 'lib/jquery_ui',
         bootstrap: 'lib/bootstrap.min',
         parallaxlib: 'lib/parallax.min',
-        track: 'lib/track.js'
+        track: 'lib/track'
     }
 });
 
